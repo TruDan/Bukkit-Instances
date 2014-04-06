@@ -8,11 +8,6 @@
     <module>instances-core</module>
     <module>instances</module>
   </modules>
-  <scm>
-    <url>https://github.com/cybertiger/Bukkit-Instances/</url>
-    <connection>scm:git:git://github.com/cybertiger/Bukkit-Instances.git</connection>
-    <developerConnection>scm:git:git@github.com:cybertiger/Bukkit-Instances.git</developerConnection>
-  </scm>
   <repositories>
     <!-- CyberianTiger repository, permissionex, reversioned craftbukkit -->
     <repository>
@@ -71,16 +66,4 @@
       </extension>
     </extensions>
   </build>
-  <distributionManagement>
-    <repository>
-      <id>cyberiantiger.repo</id>
-      <name>CyberianTiger Maven Repository</name>
-      <url>dav:http://cyberiantiger.org/maven</url>
-    </repository>
-    <snapshotRepository>
-      <id>cyberiantiger.repo</id>
-      <name>CyberianTiger Maven Repository</name>
-      <url>dav:http://cyberiantiger.org/maven</url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
